@@ -1,0 +1,67 @@
+@font-face {
+    font-family: pixelify;
+    src: url("../Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: kinkee;
+    src: url("../kinkee/KINKEE__.TTF");
+}
+body{
+    background-image: url(../images/fond-choco.jpg);
+    background-attachment:fixed ;
+}
+
+* {
+    margin: 0;
+}
+body {
+    margin: 2rem;
+}
+.barre-recherche {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    border: 5px solid #ff7ea1;
+    background: linear-gradient(0deg, rgba(255,87,132,1) 0%, rgba(255,227,235,1) 77%);
+
+}
+
+.barre-recherche h2 {
+    margin: 0;
+    font-family: kinkee;
+    color: #633b20;
+    font-size: xx-large;
+}
+.barre-recherche div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-minia-maison {
+    display: flex;
+    width: 24px;
+    height: auto;
+    border: 2px solid #ff7ea1;
+    background-color: #ffe3eb;
+    
+
+}
+.img-minia-maison:hover{
+    background-color: #fffbbe;
+}
+.img-minia-croix:hover{
+    background-color: #fffbbe;
+}
+.img-minia-croix{
+    display: flex;
+    width: 24px;
+    height: auto;
+    border: 2px solid #ff7ea1;
+    background-color: #ffe3eb;
+
+}
+.barre-recherche div {
+    margin-left: auto;
+}

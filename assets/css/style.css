@@ -1,0 +1,228 @@
+@font-face {
+    font-family: pixelify;
+    src: url("../Pixelify_Sans/PixelifySans-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: kinkee;
+    src: url("../kinkee/KINKEE__.TTF");
+}
+body{
+    background-image: url(../images/fond-choco.jpg);
+    background-attachment:fixed ;
+}
+
+* {
+    margin: 0;
+}
+body {
+    margin: 2rem;
+}
+.barre-recherche {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    border: 5px solid #ff7ea1;
+    background: linear-gradient(0deg, rgba(255,87,132,1) 0%, rgba(255,227,235,1) 77%);
+
+}
+
+.barre-recherche h2 {
+    margin: 0;
+    font-family: kinkee;
+    color: #633b20;
+    font-size: xx-large;
+}
+.barre-recherche div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.img-minia-maison {
+    display: flex;
+    width: 24px;
+    height: auto;
+    border: 2px solid #ff7ea1;
+    background-color: #ffe3eb;
+    
+
+}
+.img-minia-maison:hover{
+    background-color: #fffbbe;
+}
+.img-minia-croix:hover{
+    background-color: #fffbbe;
+}
+.img-minia-croix{
+    display: flex;
+    width: 24px;
+    height: auto;
+    border: 2px solid #ff7ea1;
+    background-color: #ffe3eb;
+
+}
+.barre-recherche div {
+    margin-left: auto;
+}
+.banniere{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+header{
+    background-color: #ffc9d7;
+    border-inline: 2px solid #ff7ea1;
+    
+}
+.titres{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10px;
+    font-family: kinkee;
+    color: #633b20;
+    border: 5px solid #ff5784;
+    background-color: #ff93b0;
+    font-size: x-large;
+}
+
+.cuisiner {
+    color:#633b20;
+    transition: color 0.5s ease;
+}
+.cuisiner:hover{
+    color: #fff898;
+}
+
+
+.titres p{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-inline: 4px dotted #ff5784;
+    width: 200%;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0%;
+}
+.cookie{
+    display: flex;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.rsi{
+    display: flex;
+    flex-direction: column;
+    font-family: kinkee;
+    color: #633b20;}
+.article-cookie{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: kinkee;
+    color: #633b20;
+    font-size: x-large;
+}
+.border{
+    margin: auto;
+    text-align: center;
+    border: 1px solid #ff5784;
+    border-radius: 16px;
+    width: 200px;
+    padding-inline: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: linear-gradient(0deg, rgba(255,87,132,1) 0%, rgba(255,227,235,1) 77%);
+}
+.border:hover{
+    transform: scale(1.2) ;
+}
+.cookie-rsi{
+    border-inline-end: 8px dotted #ff5784;
+    width: fit-content;
+}
+main{
+    background-color: #ffc9d7;
+    border: 2px solid #ff5784;
+}
+.img-gourmandises{
+    display: flex;
+    width: 40%;
+}
+
+.recipes {
+    display: flex;
+}
+.gourmandises {
+    font-family: pixelify;
+    color: #633b20;
+}
+p .liste-recettes{
+    display: flex;
+    justify-content: space-between;
+    width: 30px;
+}
+.gauche{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg); /* Départ de l'animation */
+    }
+    100% {
+        transform: rotate(720deg); /* Fin de l'animation (un tour complet) */
+    }
+}
+
+.cookie {
+    display: inline-block; 
+    transition: transform 0.5s; 
+}
+
+.cookie:hover {
+    animation: rotation 0.5s linear; 
+}
+.recette-citron{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.recette{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+
+}
+h3{
+    display: flex;
+    justify-content: start;
+    font-family: kinkee;
+    margin-bottom: 30px;
+    font-size: x-large;
+    color: #c2184b;
+
+    
+}
+.recette-titre{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #ff7ea1;
+    border-inline: 2px solid #ff608b;
+    border-bottom: 2px solid #ff608b;
+}
+footer div{
+    font-family: kinkee;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
